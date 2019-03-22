@@ -7,6 +7,7 @@
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: grey;
+    background-color: white;
 }
 .navbar>.navbar-brand {
     font-size: 20pt;
@@ -33,6 +34,18 @@ a:visited, a:hover {
     border-right-color: #666666;
 }
 /* End of the header */
+
+#outer-box {
+    background-image: url("../images/white-waves.png");
+}
+
+#inner-box {
+    margin-top: 50px;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    background-color: white;
+}
 
 .my-picture {
     float: left;
@@ -95,9 +108,25 @@ input {
     color: white;
 }
 
+/* This all sets up the sticky footer */
+html {
+    position: relative;
+    min-height: 100%;
+    background-image: url("../images/white-waves.png");
+  }
+body {
+    margin-bottom: 100px;
+    background-image: url("../images/white-waves.png");
+}
 footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
     background-color: #666666;
     padding: 20px;
     text-align: center;
     border-top: 8px solid #4aaaa5;
 }
+
+/* End of the footer */
