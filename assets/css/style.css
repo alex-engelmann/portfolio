@@ -1,42 +1,43 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 
-header {
-    width: 960px;
-    height: 76px;
-    margin-left: auto;
-    margin-right: auto;
+/* This all sets up the header of the page */
+#header {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+}
+.navbar>.navbar-brand {
+    font-size: 20pt;
+    background-color: teal;
+    padding: 25px;
+    color: white;
+}
+.navbar>.navbar-brand:hover {
+    color: white;
+}
+.navbar {
     background-color: white;
     font-family: 'IBM Plex Sans', sans-serif;
 }
-.my-name{
-    font-size: 20pt;
-    padding: 25px;
-    float: left;
-    display: block;
-    background-color: teal;
-    color: white;
+li:hover {
+    text-decoration: underline;
 }
+a:visited, a:hover {
+    color: grey;
+}
+#first, #second {
+    border-right-width: 1px;
+    border-right-style: groove;
+    border-right-color: #666666;
+}
+/* End of the header */
 
 .my-picture {
     float: left;
     padding: 20px;
 }
-
-.column, .row::after, img, .project-label {
-    box-sizing: border-box
-}
-.column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
-  
-  /* Clear floats after image containers */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
 
 img {
     padding: 10px;
@@ -56,33 +57,7 @@ img {
     bottom: 70px;
 }
 
-ul{
-    display: block;
-    float: right;
-    padding: 20px;
-}
 
-a {text-decoration: none;}
-
-li{
-    padding:8px 14px;
-    float:left;
-    width:auto;
-    display:block;
-}
-li:hover{
-    text-decoration: underline;
-}
-a:visited, a:hover {
-    color: grey;
-}
-
-#first, #second {
-    
-    border-right-width: 1px;
-    border-right-style: groove;
-    border-right-color: #666666;
-}
 
 h1 {
     font-size: 18pt;
@@ -96,27 +71,6 @@ h2 {
     padding-top: 10px;
 }
 
-.outer-content-box {
-    background-image: url("../images/white-waves.png");
-    border-top-width: 2px;
-    border-top-color: grey;
-    border-style: solid;
-    padding-bottom: 50px;
-    min-height: calc(100vh - 196px);
-}
-
-.inner-content-box {
-    width: 920px;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: white;
-    padding: 20px;
-    border-style: solid;
-    border-color: #666666;
-    border-width: 2px;
-    font-family: 'IBM Plex Sans', sans-serif;
-}
 p {
     padding: 10px;
     color: black;
@@ -140,6 +94,7 @@ input {
     left: 220px;
     color: white;
 }
+
 footer {
     background-color: #666666;
     padding: 20px;
