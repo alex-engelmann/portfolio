@@ -44,29 +44,22 @@ a:visited, a:hover {
 }
 
 .img-fluid {
-    float: left;
     padding: 20px;
-}
-
-img {
-    padding: 10px;
-    box-sizing: border-box;
 }
 
 .project-label {
     font-size: 18pt;
-    width: 280px;
     padding: 10px;
-    display: block;
+    width: 85%;
+    position: absolute;
+    right: 43px;
+    bottom: 30px;
+    display: flexbox;
     background-color: teal;
     color: white;
     text-align: center;
-    position: relative;
-    left: 10px;
-    bottom: 70px;
+    
 }
-
-
 
 h1 {
     font-size: 18pt;
@@ -96,6 +89,7 @@ input {
     background-color: teal;
     margin-top: 10px;
     padding: 10px;
+    margin-bottom: 20px;
     width: auto;
     height: auto;
     font-family: 'IBM Plex Sans', sans-serif;
