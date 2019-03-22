@@ -1,5 +1,6 @@
 # Bootstrap-Portfolio
 
 ---
-permalink: /index.html
+
+# permalink: /index.html
 ---
