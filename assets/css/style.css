@@ -45,16 +45,18 @@ a:visited, a:hover {
 
 .img-fluid {
     padding: 20px;
+    float: left;
 }
 
 .project-label {
     font-size: 18pt;
     padding: 10px;
-    width: 85%;
+    width: 70%;
     position: absolute;
-    right: 43px;
+    left: 10%;
+    margin-right: 50%;
     bottom: 30px;
-    display: flexbox;
+    display: inline-block;
     background-color: teal;
     color: white;
     text-align: center;
