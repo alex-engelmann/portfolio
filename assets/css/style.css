@@ -61,7 +61,7 @@ a:visited, a:hover {
     margin-right: 50%;
     bottom: 30px;
     display: inline-block;
-    background-color: teal;
+    background-color: rgb(117, 0, 128);
     color: white;
     text-align: center;
     
@@ -84,6 +84,11 @@ p {
     padding: 10px;
     color: black;
     font-size: 14;
+}
+
+#links {
+    float: center;
+    padding: 20px;
 }
 
 textarea {

@@ -1,68 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bootstrap Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
 
 </head>
+
 <body>
-    <!-- The navbar inside its container -->
-    <div class="container-fluid" id="header">
-      <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <div class="navbar-brand">Alex Engelmann</div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" id="first" href="./index.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="second" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+  <!-- The navbar inside its container -->
+  <div class="container-fluid" id="header">
+    <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light">
+        <div class="navbar-brand">Alex Engelmann</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" id="first" href="./index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="second" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- End of the header and navbar, beginning of the central row -->
+  <div class="row" id="outer-box">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="container" id="inner-box">
+        <h1>About Me</h1>
+        <img class="img-fluid" src="./assets/images/myself.jpg" alt="Picture of Alex Engelmann">
+        <p>
+          A pharmacist and aspiring web developer, you can see the latest web projects I've been working on at this
+          page.  This is always a work in progress, so drop by every once in a while and see what's new.
+        </p>
+        <p></p>
+        <p></p>
+        <div class="container text-center" id="links">
+
+          <a href="https://www.linkedin.com/in/alex-engelmann">
+            <img alt="LinkedIn" src="./assets/images/In-Blue-128.png" width="100" height="100">
+          </a>
+
+          <a href='https://github.com/alex-engelmann'>
+            <img alt="GitHub" src="./assets/images/GitHub-Mark-120px-plus.png" width="100" height="100">
+          </a>
+
+          <a href="./assets/resume.pdf">
+            <img alt="Resume" src="./assets/images/resume logo.png" width="100" height="100">
+          </a>
+        </div>
+
+
       </div>
     </div>
-    <!-- End of the header and navbar, beginning of the central row -->
-    <div class="row" id="outer-box">
-      <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div class="container" id="inner-box">
-                  <h1>About Me</h1>
-                  <img class="img-fluid" src="./assets/images/myself.jpg" alt="Picture of Alex Engelmann">
-                  <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin elementum condimentum nibh, vitae     interdum leo dignissim ut. Sed accumsan elementum libero, auctor bibendum purus condimentum sed. Aliquam pellentesque turpis ac nunc pretium tincidunt vel id leo. Aliquam erat volutpat. In egestas tincidunt ipsum et aliquet. Sed tempor vitae erat vitae semper. Cras leo dui, porttitor quis lectus sit amet, commodo consequat augue. Curabitur dictum lorem at nisi pretium, a cursus augue viverra. Cras accumsan tempor euismod.
-                  </p>
-                  <p>
-                      Sed lobortis tortor justo, vitae sodales magna malesuada id. Ut condimentum dui ex, dictum convallis nisi ornare ac. Nunc odio eros, auctor ac pretium et, posuere eget urna. In aliquet augue a condimentum eleifend. Vestibulum a ornare quam. Donec malesuada justo a erat pretium, eu fringilla purus fringilla. Fusce tincidunt justo vitae ligula lobortis, a semper lectus tincidunt. In consectetur commodo dolor eget tempus. Praesent eget erat massa. Cras porta finibus nulla, sed suscipit sem luctus vitae. Donec sed porta nisl, id lacinia magna. Nam massa tortor, vulputate dictum semper sit amet, feugiat vitae turpis. Duis tellus erat, ullamcorper at dignissim eu, hendrerit at risus.
-                  </p>
-          </div>
-        </div>
-      <div class="col-md-2"></div>
-    </div>
-
-    
-    <footer class="footer">Copyright &#169;
-    </footer>
+    <div class="col-md-2"></div>
+  </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <footer class="footer">Copyright &#169;
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
