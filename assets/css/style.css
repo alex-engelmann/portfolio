@@ -3,6 +3,10 @@
 }
 
 /* This all sets up the header of the page */
+.ml-auto {
+    margin-left: auto !important
+}
+
 #header {
     border-bottom-width: 2px;
     border-bottom-style: solid;
