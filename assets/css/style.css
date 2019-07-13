@@ -181,19 +181,22 @@ hr{
 
 /* Start of gallery styling */
 
-#gallery{
+#gallery p{
+    text-align: center;
+}
+
+#projects-holder{
     display: grid;
     grid-gap: 50px 50px;
     grid-template-columns: auto auto;
-    width: 15px;
+    justify-content: center;
 }
 
-.project-box{
-    width: 50%;
-}
 
 .project-label {
     font-size: 17px;
+    text-align: center;
+    width: 100%;
 }
 
 #gallery a {
