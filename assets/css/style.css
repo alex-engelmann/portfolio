@@ -194,13 +194,22 @@ hr{
 
 
 .project-label {
-    font-size: 17px;
+    font-size: 23px;
     text-align: center;
     width: 100%;
 }
 
 #gallery a {
     color: #131622;
+}
+
+@media(max-width:1000px){
+    #projects-holder{
+        display: grid;
+        grid-gap: 3em;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
 }
 
 
