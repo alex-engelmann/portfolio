@@ -192,7 +192,6 @@ hr{
     justify-content: center;
 }
 
-
 .project-label {
     font-size: 23px;
     text-align: center;
@@ -234,6 +233,12 @@ section.flexbox-section p {
 }
 
 /* End of Studio styling */
+
+#contact-form{
+    text-align: center;
+}
+
+
 
 /* Footer styling below */
 
