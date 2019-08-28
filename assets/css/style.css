@@ -18,9 +18,9 @@ ul {
     list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
     font-family: 'IBM Plex Sans', sans-serif;
-}
+} */
 
 header {
     background-color: rgba(0, 0, 0, .7);
@@ -28,7 +28,7 @@ header {
     z-index: 10;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     color: white;
     padding: 35px 100px 20px;
     display: flex;
@@ -187,6 +187,15 @@ hr {
     justify-content: center;
 }
 
+.project-box{
+    width: auto;
+}
+
+.screenshot {
+    width: 100%;
+    height: auto;
+}
+
 .project-label {
     font-size: 23px;
     text-align: center;
@@ -238,7 +247,7 @@ footer {
     background-color: #131622;
     color: white;
     background: linear-gradient(to bottom, #284e7a, #000 100%);
-    padding: 60px 0;
+    padding: 60px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
