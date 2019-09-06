@@ -189,11 +189,23 @@ hr {
 
 .project-box{
     width: auto;
+    transition: all 1s;
+    border: 1px solid black;
+}
+.project-box:hover{
+    transform: scale(1.05);
 }
 
 .screenshot {
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.screenshot:hover {
+    cursor: pointer;
 }
 
 .project-label {
