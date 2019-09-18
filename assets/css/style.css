@@ -229,28 +229,17 @@ hr {
 
 /* End of gallery styling */
 
-/* Start of Studio styling */
 
-section.flexbox-section {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-section.flexbox-section p {
-    max-width: 900px;
+#badge {
     text-align: center;
-    margin-bottom: 35px;
-    padding: 0 20px;
-    line-height: 1.5;
 }
-
-/* End of Studio styling */
 
 #contact-form {
     text-align: center;
+}
+
+.badge-image {
+    align-content: center;
 }
 
 /* Footer styling below */
