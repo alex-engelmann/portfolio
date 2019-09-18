@@ -187,12 +187,15 @@ hr {
     grid-gap: 50px 50px;
     grid-template-columns: auto auto;
     justify-content: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 
 .project-box{
     width: auto;
     transition: all 1s;
     border: 1px solid black;
+    border-radius: 5%;
 }
 .project-box:hover{
     transform: scale(1.05);
