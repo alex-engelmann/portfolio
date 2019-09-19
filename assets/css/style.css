@@ -11,7 +11,7 @@ html {
 }
 
 a {
-    color: white;
+    color: #555;
 }
 
 ul {
@@ -241,10 +241,6 @@ hr {
 
 #contact-form {
     text-align: center;
-}
-
-.badge-image {
-    align-content: center;
 }
 
 /* Footer styling below */
