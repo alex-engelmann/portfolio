@@ -185,10 +185,6 @@ hr {
     align-items: center;
 }
 
-/* #technologies ul li {
-    display: flex;
-} */
-
 #technologies img {
     max-width: 100px;
     max-height: 100px;
@@ -197,9 +193,6 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
-
-
 
 /* end of About styling */
 
