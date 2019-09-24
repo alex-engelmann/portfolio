@@ -145,7 +145,7 @@ h3.title {
 #about-pic {
     border: 1px solid black;
     border-radius: 50%;
-    max-width: 300px;
+    width: 200px;
 }
 
 #about-bio {
