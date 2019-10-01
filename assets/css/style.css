@@ -328,6 +328,7 @@ footer ul li {
 footer ul li a {
     font-size: 36px;
     cursor: pointer;
+    color: white;
 }
 
 @media(max-width:800px) {
